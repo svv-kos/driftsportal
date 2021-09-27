@@ -1,0 +1,15 @@
+.lenke {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin-bottom: 1rem;
+}
+
+.link {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.tekst {
+  margin: 0;
+}
