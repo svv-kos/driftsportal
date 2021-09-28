@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "oppdater-adr": "adr-log -d"
+    "oppdater-adr": "adr-log -i -e template.md -d docs/adr"
   },
   "dependencies": {
     "next": "11.1.2",
