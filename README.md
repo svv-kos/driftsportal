@@ -1,5 +1,7 @@
 # Driftsportal
 
+[ADR oversikt](docs/adr/index.md)
+
 ## For å kjøre lokalt
 
 - [prereq] installer [Node.js](https://nodejs.org/en/)
