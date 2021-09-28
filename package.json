@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "oppdater-adr": "adr-log -i -e template.md -d docs/adr"
+    "oppdater-adr": "adr-log -i -e template.md -d docs/adr",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -23,6 +24,7 @@
     "eslint-config-prettier": "^8.3.0",
     "madr": "^2.1.2",
     "prettier": "^2.4.1",
-    "typescript": "4.4.3"
+    "typescript": "4.4.3",
+    "husky": "^7.0.0"
   }
 }
