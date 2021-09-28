@@ -11,4 +11,4 @@ Dette er en logg av archeitecural decitions for driftsportal.
 
 For å lage nye ADRer, bruk [template.md](template.md) som utgangspunkt.
 Mer information om MADR finnes på <https://adr.github.io/madr/>.
-Generel informasjon om architectural decision records er tilgjengelig på <https://adr.github.io/>.
+Generell informasjon om architectural decision records er tilgjengelig på <https://adr.github.io/>.
