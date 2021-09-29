@@ -23,7 +23,7 @@ jobs:
 
     - name: Bruk GH Pages-vennlig next config
       run: |
-        sed -i '4i\  assetPrefix: \x27/driftsportal/\x27,' next.config.js
+        sed -i '4i\  assetPrefix: "/driftsportal/",' next.config.js
 
     - run: npm ci
     - run: npm run ci
