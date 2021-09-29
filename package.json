@@ -7,6 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
+    "ci": "npm run build && npm run lint",
     "format": "prettier --write .",
     "oppdater-adr": "adr-log -i -e template.md -d docs/adr",
     "prepare": "husky install"
