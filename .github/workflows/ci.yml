@@ -20,11 +20,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+
+    - name: Bruk GH Pages-vennlig next config
+      run: |
+        sed -i '4i\  assetPrefix: \x27/driftsportal/\x27,' next.config.js
+
     - run: npm ci
     - run: npm run ci
-    
+
     - run: touch ./out/.nojekyll
-    
+
     - name: Deploy to GH Pages 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.5
       with:
