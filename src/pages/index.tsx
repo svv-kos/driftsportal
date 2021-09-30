@@ -3,7 +3,7 @@ import { Lenke } from "../components/Lenke";
 
 const Startside = () => (
   <div>
-    <h1 className={styles.tittel}>Driftsportalstatside</h1>
+    <h1 className={styles.tittel}>Driftsportal</h1>
     <ul className={styles.lenkeliste}>
       <Lenke tittel="Verktøy" lenke="http://localhost">
         Her kan du finne no info
