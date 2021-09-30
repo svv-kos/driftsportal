@@ -1,15 +1,72 @@
 .lenke {
-  display: flex;
-  flex-direction: column;
-  width: 25rem;
-  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0 0.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1.5rem;
 }
 
 .link {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100%;
+  border-bottom: 2px solid #ff9600;
+  box-shadow: 0 0 6px 2px rgba(63, 62, 67, 0.08);
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+.link:hover,
+.link:focus {
+  padding-bottom: 1.1875rem;
+  border-width: 3px;
+  box-shadow: 0 0 8px 4px rgba(53, 62, 67, 0.2);
+}
+
+.link:hover .tittel {
+  border-bottom: 1px solid #858d90;
+  margin-bottom: 0.2rem;
+}
+
+.link:focus .tittel {
+  border-bottom: 2px solid #858d90;
+  margin-bottom: 0.15rem;
+}
+
+.tittel {
+  display: inline;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.tittel_wrapper {
+  flex-shrink: 0;
+  min-height: 5rem;
+  background-image: url(../public/chevron-right.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 4px;
+  padding-right: 1.875rem;
 }
 
 .tekst {
   margin: 0;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+  .lenke {
+    width: 50%;
+    min-height: 16.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lenke {
+    min-height: 17.5rem;
+    width: 33.33%;
+  }
 }

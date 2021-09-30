@@ -1,8 +1,22 @@
 .tittel {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.tittel::after {
+  content: "";
+  display: block;
+  margin: 0.9375rem 0 0;
+  width: 5rem;
+  height: 4px;
+  background: #ff9600;
 }
 
 .lenkeliste {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
 }

@@ -5,12 +5,18 @@ const Startside = () => (
   <div>
     <h1 className={styles.tittel}>Driftsportal</h1>
     <ul className={styles.lenkeliste}>
-      <Lenke tittel="Verktøy" lenke="http://localhost">
+      <Lenke tittel="Verktøy" lenke="#">
         Her kan du finne no info
       </Lenke>
-      <Lenke tittel="Verktøy med et ganske langt navn" lenke="http://localhost">
+      <Lenke tittel="Verktøy" lenke="#">
+        Her kan du finne no info
+      </Lenke>
+      <Lenke
+        tittel="Om koronautbruddet og en overksrift som bli lang"
+        lenke="#"
+      >
         En tekst som beskriver verktøy med ganske langt navn ved å bruke ganske
-        mange ord slik at man må tenke på wrapping.
+        mange ord.
       </Lenke>
     </ul>
   </div>
