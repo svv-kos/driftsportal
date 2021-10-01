@@ -8,9 +8,9 @@
 .link {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: var(--svv-bakgrunnsfage);
   height: 100%;
-  border-bottom: 2px solid #ff9600;
+  border-bottom: 2px solid var(--svv-oransje);
   box-shadow: 0 0 6px 2px rgba(63, 62, 67, 0.08);
   padding: 1.25rem 1.5rem;
   text-decoration: none;
@@ -26,12 +26,12 @@
 }
 
 .link:hover .tittel {
-  border-bottom: 1px solid #858d90;
+  border-bottom: 1px solid var(--svv-lys-grå);
   margin-bottom: 0.2rem;
 }
 
 .link:focus .tittel {
-  border-bottom: 2px solid #858d90;
+  border-bottom: 2px solid var(--svv-lys-grå);
   margin-bottom: 0.15rem;
 }
 

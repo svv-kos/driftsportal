@@ -11,7 +11,7 @@
   margin: 0.9375rem 0 0;
   width: 5rem;
   height: 4px;
-  background: #ff9600;
+  background: var(--svv-oransje);
 }
 
 .lenkeliste {
