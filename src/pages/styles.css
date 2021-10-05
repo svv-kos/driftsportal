@@ -1,28 +1,28 @@
 @font-face {
-    font-family: "LFT Etica";
-    src: url("https://www.vegvesen.no/UI/fonts/LFTEticaLt.woff") format("woff");
-    font-style: normal;
-    font-weight: 300;
+  font-family: "LFT Etica";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://www.vegvesen.no/UI/fonts/LFTEticaLt.woff") format("woff");
 }
 
 @font-face {
-    font-family: "LFT Etica";
-    src: url("https://www.vegvesen.no/UI/fonts/LFT_Etica_Reg.woff") format("woff");
-    font-style: normal;
-    font-weight: 400;
+  font-family: "LFT Etica";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://www.vegvesen.no/UI/fonts/LFT_Etica_Reg.woff") format("woff");
 }
 
 body {
-    font-family: sans-serif;
-    color: var(--svv-mørk-grå);
-    line-height: 1.625rem;
-    max-width: 70.5rem;
-    margin: 0 auto;
+  color: var(--svv-mørk-grå);
+  font-family: sans-serif;
+  line-height: 1.625rem;
+  margin: 0 auto;
+  max-width: 70.5rem;
 }
 
 :root {
-    --svv-oransje: #ff9600;
-    --svv-lys-grå: #858d90;
-    --svv-mørk-grå: #444f55;
-    --svv-bakgrunnsfage: #fff;
+  --svv-oransje: #ff9600;
+  --svv-lys-grå: #858d90;
+  --svv-mørk-grå: #444f55;
+  --svv-bakgrunnsfage: #fff;
 }

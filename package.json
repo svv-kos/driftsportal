@@ -7,11 +7,12 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "ci": "npm run pretty-quick && npm run lint && npm run build",
-    "format": "prettier --write .",
+    "ci": "npm run lint && npm run format && npm run build",
+    "fix-styles": "stylelint '**/*.css' --fix",
+    "fix-code": "prettier --write .",
+    "format": "npm run fix-code && npm run fix-styles",
     "oppdater-adr": "adr-log -i -e template.md -d docs/adr",
-    "prepare": "husky install",
-    "pretty-quick": "pretty-quick"
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -27,7 +28,11 @@
     "husky": "^7.0.0",
     "madr": "^2.1.2",
     "prettier": "^2.4.1",
-    "pretty-quick": "^3.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.2.0",
     "typescript": "4.4.3"
   }
 }
