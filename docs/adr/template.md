@@ -1,8 +1,8 @@
 # [kort tittel på løst problem eller besluttning]
 
-* Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
-* Deciders: [list everyone involved in the decision] <!-- optional -->
-* Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
+- Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
+- Deciders: [list everyone involved in the decision] <!-- optional -->
+- Date: [YYYY-MM-DD when the decision was last updated] <!-- optional -->
 
 Technical Story: [description | ticket/issue URL] <!-- optional -->
 
@@ -12,16 +12,16 @@ Technical Story: [description | ticket/issue URL] <!-- optional -->
 
 ## Besluttningsdrivere <!-- optional -->
 
-* [driver 1, e.g., a force, facing concern, …]
-* [driver 2, e.g., a force, facing concern, …]
-* … <!-- numbers of drivers can vary -->
+- [driver 1, e.g., a force, facing concern, …]
+- [driver 2, e.g., a force, facing concern, …]
+- … <!-- numbers of drivers can vary -->
 
 ## Alternativer
 
-* [option 1]
-* [option 2]
-* [option 3]
-* … <!-- numbers of options can vary -->
+- [option 1]
+- [option 2]
+- [option 3]
+- … <!-- numbers of options can vary -->
 
 ## Besluttning
 
@@ -29,13 +29,13 @@ Valgt alternativ: "[option 1]". [justification. e.g., only option, which meets k
 
 ### Positive konsekvenser <!-- optional -->
 
-* [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
-* …
+- [e.g., improvement of quality attribute satisfaction, follow-up decisions required, …]
+- …
 
 ### Negative konsekvenser <!-- optional -->
 
-* [e.g., compromising quality attribute, follow-up decisions required, …]
-* …
+- [e.g., compromising quality attribute, follow-up decisions required, …]
+- …
 
 ## Fordeler og ulemper med mulighetene <!-- optional -->
 
@@ -43,30 +43,30 @@ Valgt alternativ: "[option 1]". [justification. e.g., only option, which meets k
 
 [example | description | pointer to more information | …] <!-- optional -->
 
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
+- Good, because [argument a]
+- Good, because [argument b]
+- Bad, because [argument c]
+- … <!-- numbers of pros and cons can vary -->
 
 ### [option 2]
 
 [example | description | pointer to more information | …] <!-- optional -->
 
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
+- Good, because [argument a]
+- Good, because [argument b]
+- Bad, because [argument c]
+- … <!-- numbers of pros and cons can vary -->
 
 ### [option 3]
 
 [example | description | pointer to more information | …] <!-- optional -->
 
-* Good, because [argument a]
-* Good, because [argument b]
-* Bad, because [argument c]
-* … <!-- numbers of pros and cons can vary -->
+- Good, because [argument a]
+- Good, because [argument b]
+- Bad, because [argument c]
+- … <!-- numbers of pros and cons can vary -->
 
 ## Links <!-- optional -->
 
-* [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
-* … <!-- numbers of links can vary -->
+- [Link type] [Link to ADR] <!-- example: Refined by [ADR-0005](0005-example.md) -->
+- … <!-- numbers of links can vary -->
