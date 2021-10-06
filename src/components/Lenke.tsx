@@ -8,7 +8,7 @@ interface LenkeProps {
 
 export const Lenke = ({ tittel, lenke, children }: LenkeProps) => (
   <li className={styles.lenke}>
-    <a href={lenke} className={styles.link}>
+    <a href={lenke} className={styles.link} target="_blank" rel="noreferrer">
       <div className={styles.tittel_wrapper}>
         <h2 className={styles.tittel}>{tittel}</h2>
       </div>
