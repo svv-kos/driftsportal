@@ -1,4 +1,4 @@
-# [kort tittel på løst problem eller besluttning]
+# [kort tittel på løst problem eller besluttning]
 
 - Status: [proposed | rejected | accepted | deprecated | … | superseded by [ADR-0005](0005-example.md)] <!-- optional -->
 - Deciders: [list everyone involved in the decision] <!-- optional -->

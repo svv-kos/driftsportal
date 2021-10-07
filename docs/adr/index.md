@@ -9,6 +9,6 @@ Dette er en logg av archeitecural decitions for driftsportal.
 
 <!-- adrlogstop -->
 
-For å lage nye ADRer, bruk [template.md](template.md) som utgangspunkt.
+For å lage nye ADRer, bruk [template.md](template.md) som utgangspunkt.
 Mer information om MADR finnes på <https://adr.github.io/madr/>.
 Generell informasjon om architectural decision records er tilgjengelig på <https://adr.github.io/>.

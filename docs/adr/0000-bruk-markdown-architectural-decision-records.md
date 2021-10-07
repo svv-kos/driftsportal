@@ -19,4 +19,4 @@ Vi oppdaterer templaten til norsk og forenkler den til vårt bruk.
 
 - Implisitte antagelser burde gjøres eksplisitte. Dokumentasjon av design er viktig for at folk skal forstå besluttninger som ble tatt tidligere.
 - MADR formatet er enkelt og fleksibelt i bruk.
-- MADR strukturen er enkel å forstå og lett å bruke og vedlikeholde.
+- MADR strukturen er enkel å forstå og lett å bruke og vedlikeholde.
