@@ -2,7 +2,7 @@
 
 Vi jobber trunk-based og pusher kode direkte til main (trunk). Når endringer pushes til main har vi noen kriterier for at det skal være ansett som ferdig.
 
-##🚦 Kriterier til endringer
+## 🚦 Kriterier til endringer
 
 ### ✨ Skal alltid
 
