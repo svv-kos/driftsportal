@@ -1,0 +1,40 @@
+name: Publiser demo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+
+      - name: Bruk GH Pages-vennlig next config
+        run: |
+          sed -i '4i\  assetPrefix: "/driftsportal/",' next.config.js
+
+      - run: npm ci
+      - run: npm run validate-ts
+      - run: npm run test
+      - run: npm run lint
+      - run: npm run format
+      - run: npm run build
+
+      - name: Deploy demo
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: out # The folder the action should deploy.
+          single-commit: true
