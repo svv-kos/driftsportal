@@ -6,7 +6,7 @@ Vi jobber trunk-based og pusher kode direkte til main (trunk). Når endringer pu
 
 ### ✨ Skal alltid
 
-- Ha kjørt med automatiserte tester
+- Ha kjørt `test-build` lokalt (`npm run validate-ts && npm run test && npm run build`)
 - Være deployet og kjøre i produksjon (evt. togglet)
 
 ### ✨ Hvis aktuelt
