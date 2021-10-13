@@ -27,8 +27,6 @@ jobs:
       - run: npm ci
       - run: npm run ci
 
-      - run: touch ./out/.nojekyll
-
       - name: Deploy to GH Pages 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
