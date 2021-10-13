@@ -1,5 +1,9 @@
 # Bruk Markdown Architectural Decision Records
 
+- Status: accepted
+- Deciders: Martin Remøy Solheim, Runar Ovesen Hjerpbakk
+- Date: 2021-09-28
+
 ## Kontekst og problembeskrivelse
 
 Vi vil holde styr på besluttninger angående arkitekturen til dette prosjektet.
