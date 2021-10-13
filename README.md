@@ -6,7 +6,7 @@
 
 ## For å kjøre lokalt
 
-- [prereq] installer [Node.js](https://nodejs.org/en/)
+- Installer [Node.js](https://nodejs.org/en/) fra installer eller med `brew install node`
 - `npm i` for å hente ned avhengigheter
 - `npm run dev` for å kjøre prosjektet
 
