@@ -2,6 +2,7 @@
 
 [![Log4brains ADRs](https://svv-kos.github.io/driftsportal/log4brains/badge.svg)](https://svv-kos.github.io/driftsportal/log4brains/)
 [![💎 - Definition of Done](https://img.shields.io/badge/💎-Definition_of_Done-blueviolet)](docs/definition-of-done.md)
+[![GitHub pages - demo](https://img.shields.io/badge/GitHub_pages-demo-2ea44f?logo=github)](https://svv-kos.github.io/driftsportal/)
 
 ## For å kjøre lokalt
 
