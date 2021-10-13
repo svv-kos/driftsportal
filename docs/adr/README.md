@@ -2,7 +2,7 @@
 
 ADRer publiseres automatisk her:
 
-🔗 **<http://INSERT-YOUR-LOG4BRAINS-URL>**
+🔗 **https://svv-kos.github.io/driftsportal/log4brains/**
 
 ## Utvikling
 

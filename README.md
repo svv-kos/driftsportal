@@ -1,7 +1,7 @@
 # Driftsportal
 
-[![ADR - Architecture Decision Record](https://img.shields.io/badge/ADR-Architecture_Decision_Record-2ea44f)](docs/adr/index.md)
-[![💎  - Definition of Done](https://img.shields.io/badge/💎 -Definition_of_Done-blueviolet)](docs/definition-of-done.md)
+[![Log4brains ADRs](https://svv-kos.github.io/driftsportal/log4brains/badge.svg)](https://svv-kos.github.io/driftsportal/log4brains/)
+[![💎 - Definition of Done](https://img.shields.io/badge/💎-Definition_of_Done-blueviolet)](docs/definition-of-done.md)
 
 ## For å kjøre lokalt
 
