@@ -12,4 +12,4 @@
 
 ## ADR
 
-Vi bruker ARD for å holde orden på design og arkitekuravgjørelser vi gjør. Mer informasjon om dette 🔗[i egen readme](docs/adr/README.md).
+Vi bruker ARD for å holde orden på design og arkitekuravgjørelser vi gjør. Mer informasjon om dette 🔗 [i egen readme](docs/adr/README.md).
