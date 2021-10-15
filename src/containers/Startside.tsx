@@ -1,5 +1,6 @@
 import styles from "./Startside.module.css";
 import { Lenke } from "../components/Lenke";
+import { Infomelding } from "../components/Infomelding";
 
 export const Startside = () => (
   <div>
@@ -31,5 +32,13 @@ export const Startside = () => (
         Vegvesenet sitt arkivsystem
       </Lenke>
     </ul>
+    <div className={styles.infoseksjon}>
+      <Infomelding>
+        Dette er en side under utvikling av KOS-teamet som arbeider med
+        kontraktsoppfølging for byggherrer. Ta gjerne kontakt med oss på mail{" "}
+        <a href="mailto:nina.kjekstad@vegvesen.no">nina.kjekstad@vegvesen.no</a>{" "}
+        dersom du har tanker eller innspill til denne siden.
+      </Infomelding>
+    </div>
   </div>
 );
