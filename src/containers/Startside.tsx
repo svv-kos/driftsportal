@@ -36,8 +36,8 @@ export const Startside = () => (
       <Infomelding>
         Dette er en side under utvikling av KOS-teamet som arbeider med
         kontraktsoppfølging for byggherrer. Ta gjerne kontakt med oss på mail{" "}
-        <a href="mailto:nina.kjekstad@vegvesen.no">nina.kjekstad@vegvesen.no</a>{" "}
-        dersom du har tanker eller innspill til denne siden.
+        <a href="mailto:kos@vegvesen.no">kos@vegvesen.no</a> dersom du har
+        innspill til denne siden eller tanker om arbeidet generelt.
       </Infomelding>
     </div>
   </div>
