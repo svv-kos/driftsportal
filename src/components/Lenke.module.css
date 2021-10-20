@@ -59,14 +59,14 @@
 
 @media (min-width: 768px) {
   .lenke {
-    min-height: 16.25rem;
+    min-height: 13rem;
     width: 50%;
   }
 }
 
 @media (min-width: 1024px) {
   .lenke {
-    min-height: 17.5rem;
+    min-height: 14rem;
     width: 33.33%;
   }
 }
