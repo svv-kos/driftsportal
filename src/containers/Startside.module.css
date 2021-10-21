@@ -14,13 +14,71 @@
   width: 5rem;
 }
 
+.innhold {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2rem;
+  max-width: 100rem;
+}
+
 .lenkeliste {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0;
   padding: 2rem;
 }
 
-.infoseksjon {
-  padding: 0 2rem 2rem 2rem;
+.informasjonspanel {
+  padding: 0;
+  width: 100%;
+}
+
+.panelinnhold {
+  display: inline;
+}
+
+.paneltekst {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .informasjonspanel {
+    padding: 0 2rem;
+  }
+
+  .panelinnhold {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .panelbilde {
+    height: 40%;
+    width: 40%;
+  }
+
+  .paneltekst {
+    flex-grow: 2;
+  }
+}
+
+@media (min-width: 1120px) {
+  .innhold {
+    flex-direction: row;
+  }
+  .informasjonspanel {
+    margin-top: 2rem;
+    min-width: 25rem;
+    padding: 0 2rem 2rem 0;
+  }
+  .panelinnhold {
+    display: inline;
+  }
+  .panelbilde {
+    height: 100%;
+    width: 100%;
+  }
 }

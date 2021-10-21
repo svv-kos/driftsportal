@@ -1,6 +1,7 @@
 .lenke {
   box-sizing: border-box;
   margin-bottom: 1.5rem;
+  min-width: 17.5rem;
   padding: 0 0.75rem;
   width: 100%;
 }
@@ -26,24 +27,22 @@
 }
 
 .tittel .link:hover {
-  border-bottom: 1px solid var(--svv-lys-grå);
+  border-bottom: 1px solid var(--svv-grå);
   margin-bottom: 0.2rem;
 }
 
 .tittel .link:focus {
-  border-bottom: 2px solid var(--svv-lys-grå);
+  border-bottom: 2px solid var(--svv-grå);
   margin-bottom: 0.15rem;
 }
 
 .tittel {
   display: inline;
-  font-size: 1.25rem;
-  font-weight: 400;
   margin-top: 0;
 }
 
 .tittel_wrapper {
-  background-image: url(../public/chevron-right.svg);
+  background-image: url(../../public/chevron-right.svg);
   background-position: 100% 4px;
   background-repeat: no-repeat;
   flex-shrink: 0;

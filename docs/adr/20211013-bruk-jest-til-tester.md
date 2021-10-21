@@ -15,4 +15,4 @@ Vi trenger et testrammeverk for å teste frontendkode.
 
 ## Besluttning
 
-Valgt alternativ: "Jest". Siden det er mye brukt og godt dokumentert. Det er også relativt lett å ta i bruk. 
+Valgt alternativ: "Jest". Siden det er mye brukt og godt dokumentert. Det er også relativt lett å ta i bruk.
