@@ -46,6 +46,7 @@
 @media (min-width: 768px) {
   .informasjonspanel {
     padding: 0 2rem;
+    width: auto;
   }
 
   .panelinnhold {
@@ -73,6 +74,7 @@
     margin-top: 2rem;
     min-width: 25rem;
     padding: 0 2rem 2rem 0;
+    width: 100%;
   }
   .panelinnhold {
     display: inline;
