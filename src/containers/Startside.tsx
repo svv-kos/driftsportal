@@ -34,10 +34,20 @@ export const Startside = () => (
     </ul>
     <div className={styles.infoseksjon}>
       <Infomelding>
-        Dette er en side under utvikling av KOS-teamet som arbeider med
-        kontraktsoppfølging for byggherrer. Ta gjerne kontakt med oss på mail{" "}
-        <a href="mailto:kos@vegvesen.no">kos@vegvesen.no</a> dersom du har
-        innspill til denne siden eller tanker om arbeidet generelt.
+        Vi er et team som skal utvikle verktøy for kontraktsoppfølging for å
+        gjøre arbeidshverdagen til byggherrene i SVV enklere. For å få til det
+        trenger vi å samle inn innsikt om hvordan hverdagen til byggherrer ser
+        ut, og en av de mulighetene vi ser på er det å samle arbeidsverktøyene
+        til byggherrer på ett sted. Vi hører gjerne tankene deres om hva som
+        skal til for at et slikt verktøy kan være nyttig for dere! Send oss
+        gjerne tilbakemelding om dette er nyttig (eller ikke!), vi tar imot ris,
+        ros og ønsker på <a href="mailto:kos@vegvesen.no">kos@vegvesen.no</a>.
+        Basert på tilbakemeldingene dere gir oss så vil siden forandre seg
+        kontinuerlig:)
+        <br />
+        <br />
+        Hilsen Nina (utvikler), Kamilla (designer), Siri (designer) og Martin
+        (utvikler)
       </Infomelding>
     </div>
   </div>
