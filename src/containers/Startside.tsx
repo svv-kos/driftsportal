@@ -36,6 +36,9 @@ export const Startside = () => (
         <Lenke tittel="MIME" lenke="https://sakarkiv.vegvesen.no/">
           Vegvesenet sitt arkivsystem
         </Lenke>
+        <Lenke tittel="ISY PØ" lenke="https://svv.isypo.net/">
+          System for økonomistyring i vegprosjekt
+        </Lenke>
       </ul>
       <aside className={styles.informasjonspanel}>
         <Panel tittel="Litt om KOS (kontraktsoppfølging)">
