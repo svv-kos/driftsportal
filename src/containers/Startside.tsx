@@ -56,10 +56,7 @@ export const Startside = () => (
               <p>
                 Send oss gjerne tilbakemelding om dette er nyttig (eller ikke!),
                 vi tar imot ris, ros og ønsker på{" "}
-                <a href="mailto:siri.olsen.corneliussen@vegvesen.no">
-                  siri.olsen.corneliussen@vegvesen.no
-                </a>
-                .
+                <a href="mailto:kos@vegvesen.no">kos@vegvesen.no</a>.
               </p>
               <p>
                 Basert på tilbakemeldingene dere gir oss så vil siden forandre
