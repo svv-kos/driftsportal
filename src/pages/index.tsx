@@ -1,3 +1,11 @@
 import { Startside } from "../containers/Startside";
+import Script from "next/script";
 
-export default Startside;
+const Hjem = () => (
+  <>
+    <Script src="../utils/hotjar.js" />
+    <Startside />
+  </>
+);
+
+export default Hjem;
