@@ -62,25 +62,6 @@
   }
 
   .paneltekst {
-    flex-grow: 2;
-  }
-}
-
-@media (min-width: 1120px) {
-  .innhold {
-    flex-direction: row;
-  }
-  .informasjonspanel {
-    margin-top: 2rem;
-    min-width: 25rem;
-    padding: 0 2rem 2rem 0;
-    width: 100%;
-  }
-  .panelinnhold {
-    display: inline;
-  }
-  .panelbilde {
-    height: 100%;
-    width: 100%;
+    width: 60%;
   }
 }
