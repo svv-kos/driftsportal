@@ -3,12 +3,12 @@ import { hotjar } from "react-hotjar";
 import "./styles.css";
 import { ReactNode, useEffect, useState } from "react";
 import CookieBanner from "react-cookie-banner";
+import { Cookies } from "react-cookie-banner";
 
 interface CookieWrapperProps {
   setBrukHotjar: (brukHotjar: boolean) => void;
   children: ReactNode;
 }
-
 const CookieWrapper = ({ setBrukHotjar, children }: CookieWrapperProps) => {
   return (
     <>
@@ -25,7 +25,10 @@ const CookieWrapper = ({ setBrukHotjar, children }: CookieWrapperProps) => {
 };
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [brukHotjar, setBrukHotjar] = useState(false);
+  const cookies = new Cookies();
+  const [brukHotjar, setBrukHotjar] = useState(
+    cookies.get("user-has-accepted-cookies") ?? false
+  );
   useEffect(() => {
     brukHotjar ? hotjar.initialize(2671965, 6) : null;
   });
