@@ -39,6 +39,13 @@ export const Startside = () => (
         <Lenke tittel="ISY PØ" lenke="https://svv.isypo.net/">
           System for økonomistyring i vegprosjekt
         </Lenke>
+        <Lenke
+          tittel="Kontraktstrekninger"
+          lenke="https://vegvesen.maps.arcgis.com/apps/dashboards/db7b9b0b471e4cbca868989f53742179"
+        >
+          Kartløsning med oversikt over driftskontrakter og tilhørende
+          byggeledere
+        </Lenke>
       </ul>
       <aside className={styles.informasjonspanel}>
         <Panel tittel="Litt om KOS (kontraktsoppfølging)">
