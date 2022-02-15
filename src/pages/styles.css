@@ -20,11 +20,6 @@ body {
   max-width: 70.5rem;
 }
 
-h1 {
-  font-size: 1.25rem;
-  font-weight: 400;
-}
-
 :root {
   --svv-oransje: #ff9600;
   --svv-lys-grå: #f5f5f5;
